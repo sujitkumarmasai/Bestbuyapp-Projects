@@ -1,0 +1,51 @@
+#cont1 {
+  display: flex;
+  background-color: #1976d2;
+  height: 100px;
+}
+#symbolbtn {
+  width: 90px;
+  height: 70px;
+}
+#symbol {
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+}
+body {
+  background-color: #e1f5fe;
+}
+#page {
+  background-color: white;
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+#cont2 {
+  width: 100%;
+  height: 1000px;
+  margin-top: -15px;
+}
+form > input {
+  width: 75%;
+  margin-top: 4%;
+  height: 35px;
+  border-radius: 6px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+}
+form > button {
+  color: white;
+  background-color: #304ffe;
+  margin-top: 4%;
+  height: 37px;
+  width: 78%;
+  border-radius: 7px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#page {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

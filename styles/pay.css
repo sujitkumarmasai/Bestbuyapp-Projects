@@ -1,0 +1,44 @@
+#cont1 {
+  display: flex;
+  background-color: #1976d2;
+  height: 100px;
+}
+#symbolbtn {
+  width: 90px;
+  height: 70px;
+}
+#symbol {
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+}
+#cont2 {
+  background-color: #b3e5fc;
+  display: flex;
+  height: 600px;
+}
+#cont2 > div:nth-child(1) {
+  margin-left: 23%;
+  margin-top: 5%;
+}
+#cont2 > div:nth-child(2) {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+form > input {
+  width: 270px;
+  height: 20px;
+  margin-top: 10px;
+}
+#usernames {
+  margin-top: 2px;
+  margin-left: -200px;
+  font-size: large;
+  font-weight: 700;
+  color: #fbe9e7;
+  display: flex;
+  gap: 10px;
+}
+#user2 {
+  color: white;
+}

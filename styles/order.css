@@ -1,0 +1,42 @@
+#cont1 {
+  display: flex;
+  background-color: #1976d2;
+  height: 100px;
+}
+#symbolbtn {
+  width: 90px;
+  height: 70px;
+}
+#symbol {
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+}
+body {
+  background-color: #e1f5fe;
+}
+#cont2 {
+  display: flex;
+  margin: 2%;
+  gap: 4%;
+}
+#cont21 > h1,
+#cont21 > h2,
+#cont21 > input {
+  margin-left: 4%;
+}
+#cont21 > label {
+  font-size: 18px;
+}
+#usernames {
+  margin-top: 2px;
+  margin-left: -200px;
+  font-size: large;
+  font-weight: 700;
+  color: #fbe9e7;
+  display: flex;
+  gap: 10px;
+}
+#user2 {
+  color: white;
+}

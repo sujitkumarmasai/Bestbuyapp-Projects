@@ -1,0 +1,50 @@
+button:hover {
+  background-color: #d81b60;
+  color: white;
+  transition: background-color 0.5s;
+}
+#cont1 {
+  display: flex;
+  background-color: #1976d2;
+  height: 100px;
+}
+#symbolbtn {
+  width: 90px;
+  height: 70px;
+}
+#symbol {
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+}
+body {
+  background-color: #e1f5fe;
+}
+#page {
+  background-color: white;
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+
+#cont5 > div > img {
+  width: 100%;
+  height: 200px;
+}
+#cont5 > div > a {
+  color: blue;
+}
+#usernames {
+  margin-top: 2px;
+  margin-left: -200px;
+  font-size: large;
+  font-weight: 700;
+  color: #fbe9e7;
+  display: flex;
+  gap: 10px;
+}
+#user2 {
+  color: white;
+}

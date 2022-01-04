@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - Best Buy</title>
+  </head>
+  <link rel="stylesheet" href="./styles/cart.css" />
+
+  <body>
+    <div id="heading">
+      <div id="heading1">
+        <a href="aamainpagebestbuy.html"
+          ><button id="bestbuyimg">
+            <img
+              src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/BestBuy_Logo_2020-190616.png"
+              class="bestbuyimg"
+            /></button
+        ></a>
+        <select id="menu">
+          <option>&equiv;Menu</option>
+          <option>Deals</option>
+          <option>Support & service</option>
+          <option>Brands</option>
+          <option>Featured</option>
+          <option>Appliances</option>
+          <option>TV & Home Theater</option>
+          <option>Computers & Tablets</option>
+          <option>Cameras, Camcorder & Drones</option>
+          <option>Cell Phone</option>
+          <option>Audio</option>
+          <option>Video Games</option>
+          <option>Movies & Music</option>
+          <option>Car Electonics & GPS</option>
+          <option>Wearable Technology</option>
+          <option>Health, Fitness & Personal Care</option>
+        </select>
+        <div id="searchoption">
+          <input type="text" placeholder="Search Best buy" id="searchbestbuy" />
+          <button style="background-color: white" id="searchbestbuysy">
+            &#128269;
+          </button>
+        </div>
+
+        <button id="aiea">Aiea</button>
+        <div id="usernames">
+          <div>Welcome to BestBuy</div>
+          <div id="user2"></div>
+        </div>
+      </div>
+
+      <hr />
+      <div id="heading2">
+        <div>
+          <a href="topdeals.html" class="deals" style="margin-top: 0.1%"
+            >Top deals</a
+          >
+          <a href="dealsoftheday.html" class="deals" style="margin-top: 0.1%"
+            >Deals Of the Day Best buy</a
+          >
+          <a href="health&wellness.html" class="deals" style="margin-top: 0.1%"
+            >Health & wellness</a
+          >
+          <button class="deals">Credit cards</button>
+          <button class="deals">Gift cards</button>
+          <button class="deals">Gift Ideas</button>
+          <button class="deals">Best Buy business</button>
+        </div>
+        <div>
+          <a href="createaccount.html" class="account" style="margin-top: 1%"
+            >Create Account</a
+          >
+          <a
+            href="signinbestbuy.html"
+            class="account"
+            style="margin-top: 1%; margin-left: 1.5%"
+            >Sign In</a
+          >
+          <a
+            href="orderstatus.html"
+            class="account"
+            style="margin-top: 1%; margin-left: 1.5%"
+            >Order Status</a
+          >
+
+          <a
+            href="saveditems.html"
+            class="account"
+            style="margin-top: 1%; margin-left: 1.5%"
+            >Saved Items</a
+          >
+        </div>
+      </div>
+    </div>
+    <div id="cont" style="margin-left: 2%"></div>
+    <div id="maincont" style="display: flex">
+      <div id="cont1"></div>
+      <div id="cont2">
+        <h2
+          style="
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          "
+        >
+          Order Summary
+        </h2>
+        <hr />
+        <div style="display: flex">
+          <h3 style="margin-left: 8%">Total Amount</h3>
+          <h3 style="margin-left: 40%">&#36;</h3>
+          <h3 id="totalprice"></h3>
+        </div>
+        <a href="aamainpagebestbuy.html"
+          ><button class="continueshop" style="height: 40px">
+            Continue Shopping
+          </button></a
+        >
+        <br />
+        <a href="payment.html"
+          ><button
+            class="continueshop"
+            onclick="makepayment()"
+            style="margin-top: 3%; height: 40px"
+          >
+            Make Payment
+          </button></a
+        >
+
+        <img
+          src="https://img.freepik.com/free-vector/promo-code-sale-banner_180786-45.jpg?size=626&ext=jpg"
+          style="height: 10%; width: 100%; margin-top: 3%"
+        />
+        <h3 style="margin-left: 15%">Save upto 30%</h3>
+        <form onsubmit="checkpromo(event)" id="checkpro">
+          <input
+            type="text"
+            id="promo"
+            placeholder="Enter Promo Code"
+            style="width: 70%; height: 20px; margin-left: 15%"
+          />
+          <input type="submit" style="margin-left: 45%; margin-top: 2%" />
+        </form>
+        <hr />
+        <h3 style="margin-left: 8%">Looking for a lease to own option?</h3>
+        <p style="margin-left: 8%">
+          Enjoy the tech you want today. Learn more >
+        </p>
+      </div>
+    </div>
+
+    <hr />
+    <div id="cont9" style="display: flex; background-color: #303f9f; gap: 2%">
+      <h1 style="color: yellow; margin-left: 11%; margin-top: 2.3%">
+        Get the latest deals and more.
+      </h1>
+      <input
+        type="text"
+        placeholder="Enter email address"
+        style="height: 40px; margin-top: 2%; width: 22%; border-radius: 15px"
+      />
+      <a href="signinbestbuy.html"
+        ><button
+          style="
+            background-color: yellow;
+            height: 45px;
+            margin-top: 40%;
+            font-size: 18px;
+            border-radius: 10px;
+          "
+        >
+          Sign In
+        </button></a
+      >
+      <div
+        style="
+          background-color: white;
+          height: 50px;
+          width: 1px;
+          margin-top: 2.3%;
+        "
+      ></div>
+      <div>
+        <h1 style="color: yellow">Best Buy app</h1>
+        <h5 style="margin-top: -15px; color: white; font-size: 15px">
+          Learn more ›
+        </h5>
+      </div>
+    </div>
+    <div
+      id="cont10"
+      style="
+        display: flex;
+        gap: 8%;
+        color: blue;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #e1f5fe;
+      "
+    >
+      <div style="margin-left: 12%">
+        <h3>My Best Buy ›</h3>
+        <p>View Points & Certificates</p>
+        <p>Member Offers</p>
+        <p>Sign in or Create Account</p>
+        <h3>Credit Cards ›</h3>
+        <p>Make a Payment at Citibank</p>
+        <p>Check Balance at Citibank</p>
+        <p>Credit Card Offers</p>
+        <p>Apply Now</p>
+      </div>
+      <div>
+        <h3>Orders & Returns ›</h3>
+        <p>Order Status</p>
+        <p>Shipping, Delivery & Store Pickup</p>
+        <p>Return & Exchange Promise</p>
+        <p>Price Match Guarantee</p>
+        <h3>Lease to Own ›</h3>
+        <p>Apply Now</p>
+      </div>
+      <div>
+        <h3>Get Support ›</h3>
+        <p>Visit our Support Center</p>
+        <p>Schedule a Service</p>
+        <p>Manage an Appointment</p>
+        <p>Shop with an Expert</p>
+        <p>Protection & Support Plans</p>
+        <p>Trade-In Program</p>
+        <p>Product Recalls</p>
+      </div>
+      <div>
+        <h3>Partnerships ›</h3>
+        <p>Affiliate Program</p>
+        <p>Developers</p>
+        <p>Best Buy Health</p>
+        <p>Best Buy Education</p>
+        <p>Best Buy Business</p>
+        <p>Best Buy Canada</p>
+        <p>Advertise with Us</p>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./ele/cart.js"></script>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You.</title>
+  </head>
+  <link rel="stylesheet" href="./styles/pay.css" />
+  <body id="body">
+    <div id="cont1">
+      <div style="margin-left: 20%; margin-top: 1%">
+        <a href="aamainpagebestbuy.html"
+          ><button id="symbolbtn" style="background-color: #1976d2">
+            <img
+              id="symbol"
+              src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/BestBuy_Logo_2020-190616.png"
+            /></button
+        ></a>
+      </div>
+      <div style="margin-left: 35%; margin-top: 2%; color: white">
+        <a href="bestbuycart.html"
+          ><p style="color: white; font-size: 18px">
+            Return to previous page
+          </p></a
+        >
+      </div>
+    </div>
+
+    <div id="cont2">
+      <div>
+        <h1>We Accept</h1>
+        <select
+          style="
+            width: 200px;
+            height: 50px;
+            background-color: #4fc3f7;
+            color: white;
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          "
+        >
+          <option>Credit Card</option>
+          <option>Debit Card</option>
+          <option>Visa Card</option>
+          <option>Rupeay card</option>
+        </select>
+      </div>
+      <div>
+        <h1>Please Enter details</h1>
+        <div style="display: flex">
+          <h1>Payment for : &#36;</h1>
+          <h1 id="pay"></h1>
+        </div>
+        <h1></h1>
+        <form onsubmit="check(event)" id="checkdet" action="">
+          <input type="text" id="name" placeholder="Account Holder Name" />
+          <br />
+          <input type="text" id="bankname" placeholder="Account Holder Bank" />
+          <br />
+          <input type="number" id="mobileno" placeholder="Mobile No." />
+          <br />
+          <input
+            type="number"
+            id="accountno"
+            placeholder="xxxx-xxxx-xxxx-xxxx"
+          />
+          <br />
+          <input type="password" id="password" placeholder="Enter Password" />
+          <br />
+          <input type="submit" style="height: 25px" />
+        </form>
+      </div>
+    </div>
+
+    <hr />
+    <div id="cont9" style="display: flex; background-color: #303f9f; gap: 2%">
+      <h1 style="color: yellow; margin-left: 11%; margin-top: 2.3%">
+        Get the latest deals and more.
+      </h1>
+      <input
+        type="text"
+        placeholder="Enter email address"
+        style="height: 40px; margin-top: 2%; width: 22%; border-radius: 10px"
+      />
+      <a href="signinbestbuy.html"
+        ><button
+          style="
+            background-color: yellow;
+            height: 45px;
+            margin-top: 40%;
+            font-size: 18px;
+            border-radius: 10px;
+          "
+        >
+          Sign In
+        </button></a
+      >
+
+      <div
+        style="
+          background-color: white;
+          height: 50px;
+          width: 1px;
+          margin-top: 2.3%;
+        "
+      ></div>
+      <div>
+        <h1 style="color: yellow">Best Buy app</h1>
+        <h5 style="margin-top: -15px; color: white; font-size: 15px">
+          Learn more ›
+        </h5>
+      </div>
+    </div>
+    <div
+      id="cont10"
+      style="
+        display: flex;
+        gap: 8%;
+        color: blue;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #e1f5fe;
+      "
+    >
+      <div style="margin-left: 12%">
+        <h3>My Best Buy ›</h3>
+        <p>View Points & Certificates</p>
+        <p>Member Offers</p>
+        <p>Sign in or Create Account</p>
+        <h3>Credit Cards ›</h3>
+        <p>Make a Payment at Citibank</p>
+        <p>Check Balance at Citibank</p>
+        <p>Credit Card Offers</p>
+        <p>Apply Now</p>
+      </div>
+      <div>
+        <h3>Orders & Returns ›</h3>
+        <p>Order Status</p>
+        <p>Shipping, Delivery & Store Pickup</p>
+        <p>Return & Exchange Promise</p>
+        <p>Price Match Guarantee</p>
+        <h3>Lease to Own ›</h3>
+        <p>Apply Now</p>
+      </div>
+      <div>
+        <h3>Get Support ›</h3>
+        <p>Visit our Support Center</p>
+        <p>Schedule a Service</p>
+        <p>Manage an Appointment</p>
+        <p>Shop with an Expert</p>
+        <p>Protection & Support Plans</p>
+        <p>Trade-In Program</p>
+        <p>Product Recalls</p>
+      </div>
+      <div>
+        <h3>Partnerships ›</h3>
+        <p>Affiliate Program</p>
+        <p>Developers</p>
+        <p>Best Buy Health</p>
+        <p>Best Buy Education</p>
+        <p>Best Buy Business</p>
+        <p>Best Buy Canada</p>
+        <p>Advertise with Us</p>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./ele/pay.js"></script>

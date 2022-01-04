@@ -1,0 +1,88 @@
+#cont1 {
+  display: flex;
+  background-color: #1976d2;
+  height: 100px;
+}
+#symbolbtn {
+  width: 90px;
+  height: 70px;
+}
+#symbol {
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+}
+body {
+  background-color: #e1f5fe;
+}
+#main {
+  display: flex;
+  margin: auto;
+}
+#one {
+  width: 68%;
+
+  margin: 20px;
+  padding-left: 10px;
+}
+#two {
+  width: 29%;
+
+  margin: 10px;
+  margin-top: 20px;
+}
+#rate {
+  color: blue;
+}
+#digital {
+  width: 40%;
+  height: 10px;
+  padding: 5px 0px 15px 0px;
+  text-align: center;
+  background-color: blue;
+  color: whitesmoke;
+  font-size: 20px;
+}
+.first {
+  margin-top: 30px;
+  align-items: center;
+  padding: 40px 0px 0px 190px;
+}
+.second {
+  margin-top: 50px;
+  padding: 0% 19.9% 0% 40%;
+}
+.class4 {
+  margin-top: 20px;
+}
+#freq {
+  width: 100%;
+  height: 200px;
+  background-color: chartreuse;
+}
+#recent {
+  margin-top: 40px;
+  width: 100%;
+  height: 300px;
+  background-color: violet;
+}
+#format {
+  width: 100%;
+  height: 50px;
+}
+.box1 {
+  width: 97%;
+  height: 30px;
+  background-color: yellow;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  font-size: 21px;
+  color: black;
+  border-radius: 5px;
+}
+#experts {
+  width: 100%;
+  height: 130px;
+  background-color: lightblue;
+  text-align: left;
+}

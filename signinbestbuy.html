@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up Best Buy</title>
+  </head>
+  <link rel="stylesheet" href="./styles/signin.css" />
+  <body>
+    <div id="cont1">
+      <div style="margin-left: 20%; margin-top: 1%">
+        <button id="symbolbtn" style="background-color: #1976d2">
+          <img
+            id="symbol"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/BestBuy_Logo_2020-190616.png"
+          />
+        </button>
+      </div>
+      <div style="margin-left: 35%; margin-top: 2%; color: white">
+        <a href="createaccount.html"
+          ><p style="color: white; font-size: 18px">
+            Return to previous page
+          </p></a
+        >
+      </div>
+    </div>
+
+    <div id="page">
+      <h1>Sign In</h1>
+      <p>Shopping for your business? Create a business account.</p>
+      <form>
+        <input type="text" id="email" placeholder="Email Address" />
+        <br />
+        <input type="password" id="password" placeholder="password" />
+        <br />
+        <p style="color: blue; margin-left: -40%">Forgot Your Password?</p>
+        <br />
+        <button onclick="signinbest(event)" style="margin-top: -10px">
+          Sign In
+        </button>
+        <hr />
+        <p>Or</p>
+        <button style="margin-top: -10px">Sign in with Apple</button>
+        <button>Sign in With Google</button>
+        <hr />
+        <a href="createaccount.html"
+          >Don't have an account? Create an account</a
+        >
+      </form>
+    </div>
+  </body>
+</html>
+<script src="./ele/signin.js"></script>
